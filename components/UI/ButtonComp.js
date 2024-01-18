@@ -1,6 +1,6 @@
 import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { GlobalStyles } from "../styles";
+import { GlobalStyles } from "../../constants/styles";
 
 const ButtonComp = ({ children, onPress, mode, style }) => {
   return (
